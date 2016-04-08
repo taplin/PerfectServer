@@ -61,3 +61,7 @@ Carthage/Build
 
 fastlane/report.xml
 fastlane/screenshots
+
+webroot/index.html
+
+Packages/PerfectLib-0.2.0/

@@ -1,9 +1,9 @@
 //
-//  Package.swift
+//  main.swift
 //  PerfectServer
 //
-//  Created by Kyle Jessup on 3/22/16.
-//	Copyright (C) 2016 PerfectlySoft, Inc.
+//  Created by Kyle Jessup on 2015-10-23.
+//	Copyright (C) 2015 PerfectlySoft, Inc.
 //
 //===----------------------------------------------------------------------===//
 //
@@ -17,15 +17,5 @@
 //===----------------------------------------------------------------------===//
 //
 
-import PackageDescription
 
-let package = Package(
-	name: "PerfectServer",
-	targets: [
-	         	Target(name: "perfectserverhttp"),
-	         	Target(name: "perfectserverfcgi")
-	],
-	dependencies: [
-	              	.Package(url:"https://github.com/PerfectlySoft/Perfect.git", majorVersion: 0, minor: 2)
-	]
-)
+try startServer()
