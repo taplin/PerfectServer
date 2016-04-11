@@ -14,24 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F8E752DE1BDA8A7600BFC36A"
-               BuildableName = "perfectserverhttp"
-               BlueprintName = "PerfectServer HTTP"
+               BlueprintIdentifier = "F842421A1BD966FC001EFF66"
+               BuildableName = "perfectserverfcgi"
+               BlueprintName = "PerfectServer FastCGI"
                ReferencedContainer = "container:PerfectServer.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F8F289BD1BD53CF000367249"
-               BuildableName = "PerfectLib.framework"
-               BlueprintName = "PerfectLibOSX"
-               ReferencedContainer = "container:../PerfectLib/PerfectLib.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F8E752DE1BDA8A7600BFC36A"
-            BuildableName = "perfectserverhttp"
-            BlueprintName = "PerfectServer HTTP"
+            BlueprintIdentifier = "F842421A1BD966FC001EFF66"
+            BuildableName = "perfectserverfcgi"
+            BlueprintName = "PerfectServer FastCGI"
             ReferencedContainer = "container:PerfectServer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -60,7 +46,8 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
-      useCustomWorkingDirectory = "NO"
+      useCustomWorkingDirectory = "YES"
+      customWorkingDirectory = "/Users/kjessup/development/TreeFrog/helpwanted/helpwanted-server"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
@@ -69,23 +56,15 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F8E752DE1BDA8A7600BFC36A"
-            BuildableName = "perfectserverhttp"
-            BlueprintName = "PerfectServer HTTP"
+            BlueprintIdentifier = "F842421A1BD966FC001EFF66"
+            BuildableName = "perfectserverfcgi"
+            BlueprintName = "PerfectServer FastCGI"
             ReferencedContainer = "container:PerfectServer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "--help"
-            isEnabled = "NO">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "--sslcert /Users/kjessup/server.crt --sslkey /Users/kjessup/server.key --port 443"
-            isEnabled = "NO">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "--port 8080 --address 127.0.0.1 --root ./webroot/"
+            argument = "--sockpath ./foo.sock"
             isEnabled = "NO">
          </CommandLineArgument>
       </CommandLineArguments>
@@ -102,9 +81,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F8E752DE1BDA8A7600BFC36A"
-            BuildableName = "perfectserverhttp"
-            BlueprintName = "PerfectServer HTTP"
+            BlueprintIdentifier = "F842421A1BD966FC001EFF66"
+            BuildableName = "perfectserverfcgi"
+            BlueprintName = "PerfectServer FastCGI"
             ReferencedContainer = "container:PerfectServer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -7,15 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D8E865791C14709000730D32 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E865781C14709000730D32 /* WindowController.swift */; };
-		F8664C0F1CB6B57500ECA4B8 /* main_http.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8664C0D1CB6B57500ECA4B8 /* main_http.swift */; };
-		F8664C101CB6B57500ECA4B8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8664C0E1CB6B57500ECA4B8 /* main.swift */; };
-		F8664C141CB6B72200ECA4B8 /* main_fcgi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8664C121CB6B72200ECA4B8 /* main_fcgi.swift */; };
-		F8664C151CB6B72200ECA4B8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8664C131CB6B72200ECA4B8 /* main.swift */; };
-		F88B06841BDD48DD001FD0CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88B06831BDD48DD001FD0CD /* AppDelegate.swift */; };
-		F88B06861BDD48DD001FD0CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88B06851BDD48DD001FD0CD /* ViewController.swift */; };
-		F88B06881BDD48DD001FD0CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F88B06871BDD48DD001FD0CD /* Assets.xcassets */; };
-		F88B068B1BDD48DD001FD0CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F88B06891BDD48DD001FD0CD /* Main.storyboard */; };
+		F870D8B71CB8139C0042F449 /* main_fcgi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F870D8B51CB8139C0042F449 /* main_fcgi.swift */; };
+		F870D8B81CB8139C0042F449 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F870D8B61CB8139C0042F449 /* main.swift */; };
+		F870D8BB1CB813A90042F449 /* main_http.swift in Sources */ = {isa = PBXBuildFile; fileRef = F870D8B91CB813A90042F449 /* main_http.swift */; };
+		F870D8BC1CB813A90042F449 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F870D8BA1CB813A90042F449 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,18 +35,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D8E865781C14709000730D32 /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 		F842421B1BD966FC001EFF66 /* perfectserverfcgi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = perfectserverfcgi; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8664C0D1CB6B57500ECA4B8 /* main_http.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main_http.swift; path = ../Sources/perfectserverhttp/main_http.swift; sourceTree = "<group>"; };
-		F8664C0E1CB6B57500ECA4B8 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = ../Sources/perfectserverhttp/main.swift; sourceTree = "<group>"; };
-		F8664C121CB6B72200ECA4B8 /* main_fcgi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main_fcgi.swift; path = ../Sources/perfectserverfcgi/main_fcgi.swift; sourceTree = "<group>"; };
-		F8664C131CB6B72200ECA4B8 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = ../Sources/perfectserverfcgi/main.swift; sourceTree = "<group>"; };
+		F870D8B51CB8139C0042F449 /* main_fcgi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main_fcgi.swift; path = ../../PerfectServer/Sources/perfectserverfcgi/main_fcgi.swift; sourceTree = "<group>"; };
+		F870D8B61CB8139C0042F449 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = ../../PerfectServer/Sources/perfectserverfcgi/main.swift; sourceTree = "<group>"; };
+		F870D8B91CB813A90042F449 /* main_http.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main_http.swift; path = ../../PerfectServer/Sources/perfectserverhttp/main_http.swift; sourceTree = "<group>"; };
+		F870D8BA1CB813A90042F449 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = ../../PerfectServer/Sources/perfectserverhttp/main.swift; sourceTree = "<group>"; };
+		F870D8C11CB815DD0042F449 /* PerfectLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PerfectLib.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/Perfect-aqyqkcamromvnnennplcqudglcko/Build/Products/Debug/PerfectLib.framework"; sourceTree = "<group>"; };
 		F88B06811BDD48DD001FD0CD /* PerfectServer HTTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PerfectServer HTTP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F88B06831BDD48DD001FD0CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F88B06851BDD48DD001FD0CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F88B06871BDD48DD001FD0CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F88B068A1BDD48DD001FD0CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F88B068C1BDD48DD001FD0CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8E752DF1BDA8A7600BFC36A /* perfectserverhttp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = perfectserverhttp; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -85,7 +75,6 @@
 			children = (
 				F8664C001CB6B4CB00ECA4B8 /* PerfectServerHTTP */,
 				F8664C111CB6B70800ECA4B8 /* PerfectServerFCGI */,
-				F88B06821BDD48DD001FD0CD /* PerfectServerHTTPApp */,
 				F84242271BD96767001EFF66 /* Linked */,
 				F842421C1BD966FC001EFF66 /* Products */,
 			);
@@ -104,6 +93,7 @@
 		F84242271BD96767001EFF66 /* Linked */ = {
 			isa = PBXGroup;
 			children = (
+				F870D8C11CB815DD0042F449 /* PerfectLib.framework */,
 			);
 			name = Linked;
 			sourceTree = "<group>";
@@ -111,8 +101,8 @@
 		F8664C001CB6B4CB00ECA4B8 /* PerfectServerHTTP */ = {
 			isa = PBXGroup;
 			children = (
-				F8664C0D1CB6B57500ECA4B8 /* main_http.swift */,
-				F8664C0E1CB6B57500ECA4B8 /* main.swift */,
+				F870D8B91CB813A90042F449 /* main_http.swift */,
+				F870D8BA1CB813A90042F449 /* main.swift */,
 			);
 			name = PerfectServerHTTP;
 			sourceTree = "<group>";
@@ -120,23 +110,10 @@
 		F8664C111CB6B70800ECA4B8 /* PerfectServerFCGI */ = {
 			isa = PBXGroup;
 			children = (
-				F8664C121CB6B72200ECA4B8 /* main_fcgi.swift */,
-				F8664C131CB6B72200ECA4B8 /* main.swift */,
+				F870D8B51CB8139C0042F449 /* main_fcgi.swift */,
+				F870D8B61CB8139C0042F449 /* main.swift */,
 			);
 			name = PerfectServerFCGI;
-			sourceTree = "<group>";
-		};
-		F88B06821BDD48DD001FD0CD /* PerfectServerHTTPApp */ = {
-			isa = PBXGroup;
-			children = (
-				F88B06831BDD48DD001FD0CD /* AppDelegate.swift */,
-				F88B06851BDD48DD001FD0CD /* ViewController.swift */,
-				D8E865781C14709000730D32 /* WindowController.swift */,
-				F88B06871BDD48DD001FD0CD /* Assets.xcassets */,
-				F88B06891BDD48DD001FD0CD /* Main.storyboard */,
-				F88B068C1BDD48DD001FD0CD /* Info.plist */,
-			);
-			path = PerfectServerHTTPApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,8 +216,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F88B06881BDD48DD001FD0CD /* Assets.xcassets in Resources */,
-				F88B068B1BDD48DD001FD0CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,8 +226,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8664C151CB6B72200ECA4B8 /* main.swift in Sources */,
-				F8664C141CB6B72200ECA4B8 /* main_fcgi.swift in Sources */,
+				F870D8B81CB8139C0042F449 /* main.swift in Sources */,
+				F870D8B71CB8139C0042F449 /* main_fcgi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +235,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F88B06861BDD48DD001FD0CD /* ViewController.swift in Sources */,
-				D8E865791C14709000730D32 /* WindowController.swift in Sources */,
-				F88B06841BDD48DD001FD0CD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,23 +242,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8664C101CB6B57500ECA4B8 /* main.swift in Sources */,
-				F8664C0F1CB6B57500ECA4B8 /* main_http.swift in Sources */,
+				F870D8BC1CB813A90042F449 /* main.swift in Sources */,
+				F870D8BB1CB813A90042F449 /* main_http.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		F88B06891BDD48DD001FD0CD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F88B068A1BDD48DD001FD0CD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F84242201BD966FC001EFF66 /* Debug */ = {
