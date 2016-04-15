@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F870D8B71CB8139C0042F449 /* main_fcgi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F870D8B51CB8139C0042F449 /* main_fcgi.swift */; };
-		F870D8B81CB8139C0042F449 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F870D8B61CB8139C0042F449 /* main.swift */; };
-		F870D8BB1CB813A90042F449 /* main_http.swift in Sources */ = {isa = PBXBuildFile; fileRef = F870D8B91CB813A90042F449 /* main_http.swift */; };
-		F870D8BC1CB813A90042F449 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F870D8BA1CB813A90042F449 /* main.swift */; };
+		F80C63F91CC15AC00002F3C9 /* main_fcgi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C63F71CC15AC00002F3C9 /* main_fcgi.swift */; };
+		F80C63FA1CC15AC00002F3C9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C63F81CC15AC00002F3C9 /* main.swift */; };
+		F80C63FD1CC15ACC0002F3C9 /* main_http.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C63FB1CC15ACC0002F3C9 /* main_http.swift */; };
+		F80C63FE1CC15ACC0002F3C9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C63FC1CC15ACC0002F3C9 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,11 +35,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F80C63F71CC15AC00002F3C9 /* main_fcgi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main_fcgi.swift; path = ../../Sources/perfectserverfcgi/main_fcgi.swift; sourceTree = "<group>"; };
+		F80C63F81CC15AC00002F3C9 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = ../../Sources/perfectserverfcgi/main.swift; sourceTree = "<group>"; };
+		F80C63FB1CC15ACC0002F3C9 /* main_http.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main_http.swift; path = ../../Sources/perfectserverhttp/main_http.swift; sourceTree = "<group>"; };
+		F80C63FC1CC15ACC0002F3C9 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = ../../Sources/perfectserverhttp/main.swift; sourceTree = "<group>"; };
 		F842421B1BD966FC001EFF66 /* perfectserverfcgi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = perfectserverfcgi; sourceTree = BUILT_PRODUCTS_DIR; };
-		F870D8B51CB8139C0042F449 /* main_fcgi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main_fcgi.swift; path = ../../PerfectServer/Sources/perfectserverfcgi/main_fcgi.swift; sourceTree = "<group>"; };
-		F870D8B61CB8139C0042F449 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = ../../PerfectServer/Sources/perfectserverfcgi/main.swift; sourceTree = "<group>"; };
-		F870D8B91CB813A90042F449 /* main_http.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main_http.swift; path = ../../PerfectServer/Sources/perfectserverhttp/main_http.swift; sourceTree = "<group>"; };
-		F870D8BA1CB813A90042F449 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = ../../PerfectServer/Sources/perfectserverhttp/main.swift; sourceTree = "<group>"; };
 		F870D8C11CB815DD0042F449 /* PerfectLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PerfectLib.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/Perfect-aqyqkcamromvnnennplcqudglcko/Build/Products/Debug/PerfectLib.framework"; sourceTree = "<group>"; };
 		F88B06811BDD48DD001FD0CD /* PerfectServer HTTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PerfectServer HTTP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E752DF1BDA8A7600BFC36A /* perfectserverhttp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = perfectserverhttp; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,8 +101,8 @@
 		F8664C001CB6B4CB00ECA4B8 /* PerfectServerHTTP */ = {
 			isa = PBXGroup;
 			children = (
-				F870D8B91CB813A90042F449 /* main_http.swift */,
-				F870D8BA1CB813A90042F449 /* main.swift */,
+				F80C63F71CC15AC00002F3C9 /* main_fcgi.swift */,
+				F80C63F81CC15AC00002F3C9 /* main.swift */,
 			);
 			name = PerfectServerHTTP;
 			sourceTree = "<group>";
@@ -110,8 +110,8 @@
 		F8664C111CB6B70800ECA4B8 /* PerfectServerFCGI */ = {
 			isa = PBXGroup;
 			children = (
-				F870D8B51CB8139C0042F449 /* main_fcgi.swift */,
-				F870D8B61CB8139C0042F449 /* main.swift */,
+				F80C63FB1CC15ACC0002F3C9 /* main_http.swift */,
+				F80C63FC1CC15ACC0002F3C9 /* main.swift */,
 			);
 			name = PerfectServerFCGI;
 			sourceTree = "<group>";
@@ -226,8 +226,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F870D8B81CB8139C0042F449 /* main.swift in Sources */,
-				F870D8B71CB8139C0042F449 /* main_fcgi.swift in Sources */,
+				F80C63FD1CC15ACC0002F3C9 /* main_http.swift in Sources */,
+				F80C63FE1CC15ACC0002F3C9 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,8 +242,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F870D8BC1CB813A90042F449 /* main.swift in Sources */,
-				F870D8BB1CB813A90042F449 /* main_http.swift in Sources */,
+				F80C63F91CC15AC00002F3C9 /* main_fcgi.swift in Sources */,
+				F80C63FA1CC15AC00002F3C9 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
