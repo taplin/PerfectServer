@@ -1,6 +1,9 @@
 # Perfect Server
 ![Perfect logo](https://www.perfect.org/images/icon_128x128.png)
 
+This repository is still in flux as we finalize support for Swift Package manager.
+**Download [release-1.0](https://github.com/PerfectlySoft/Perfect/releases/tag/v1.0.0) if you are using Xcode 7.3 with Swift 2.2.**
+
 **Perfect Server** is the server-side component that makes Perfect tick. It is a stand-alone process which stays running and accepts connections from clients, processing requests and returning responses. It has a plugin mechanism for allowing developers to include their application logic modules, known as handlers, into the system. These handlers are associated with mustache templates which provide the response formatting mechanism. This methodology provides a clean separation of logic and presentation following the classic MVC architecture.
 
 ## Flavours
