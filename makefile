@@ -2,7 +2,7 @@
 PERFECTLIB = $(wildcard ./Packages/PerfectLib-*)
 OS = $(shell uname)
 Darwin_SWIFTC_FLAGS = -Xlinker -L/usr/lib -Xlinker -lcurl -Xlinker -L$(wildcard ./Packages/PerfectLib-*)/Sources/OpenSSL/osx -Xlinker -lcrypto-x86_64 -Xlinker -lssl-x86_64
-Linux_SWIFTC_FLAGS = -v -Xlinker -lcurl -Xlinker -lssl -Xlinker -lcrypto -Xlinker -luuid -Xlinker .build/debug/libLinuxBridge.so
+Linux_SWIFTC_FLAGS = -Xlinker -lcurl -Xlinker -lssl -Xlinker -lcrypto -Xlinker -luuid -Xlinker .build/debug/libLinuxBridge.so
 SWIFTC_FLAGS = $($(OS)_SWIFTC_FLAGS)
 
 all: fetch
