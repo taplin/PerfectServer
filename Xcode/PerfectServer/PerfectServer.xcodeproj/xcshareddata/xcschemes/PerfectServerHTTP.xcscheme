@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F8E752DE1BDA8A7600BFC36A"
-               BuildableName = "perfectserverhttp"
-               BlueprintName = "PerfectServer HTTP"
-               ReferencedContainer = "container:PerfectServer.xcodeproj">
+               BlueprintIdentifier = "F8F289BD1BD53CF000367249"
+               BuildableName = "PerfectLib.framework"
+               BlueprintName = "PerfectLib"
+               ReferencedContainer = "container:../../../PerfectLib/Xcode/PerfectLib/PerfectLib.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F8F289BD1BD53CF000367249"
-               BuildableName = "PerfectLib.framework"
-               BlueprintName = "PerfectLib"
-               ReferencedContainer = "container:../PerfectLib/PerfectLib.xcodeproj">
+               BlueprintIdentifier = "F8E752DE1BDA8A7600BFC36A"
+               BuildableName = "perfectserverhttp"
+               BlueprintName = "PerfectServer HTTP"
+               ReferencedContainer = "container:PerfectServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

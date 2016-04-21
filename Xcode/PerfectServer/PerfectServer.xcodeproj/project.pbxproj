@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F80C63F91CC15AC00002F3C9 /* main_fcgi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C63F71CC15AC00002F3C9 /* main_fcgi.swift */; };
 		F80C63FA1CC15AC00002F3C9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C63F81CC15AC00002F3C9 /* main.swift */; };
-		F80C63FD1CC15ACC0002F3C9 /* main_http.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C63FB1CC15ACC0002F3C9 /* main_http.swift */; };
 		F80C63FE1CC15ACC0002F3C9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C63FC1CC15ACC0002F3C9 /* main.swift */; };
+		F80D5B6D1CC871530025AD97 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80D5B6C1CC871530025AD97 /* PerfectLib.framework */; };
+		F80D5B6E1CC871680025AD97 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80D5B6C1CC871530025AD97 /* PerfectLib.framework */; };
+		F80D5B6F1CC871CE0025AD97 /* main_http.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C63FB1CC15ACC0002F3C9 /* main_http.swift */; };
+		F80D5B701CC871D20025AD97 /* main_fcgi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C63F71CC15AC00002F3C9 /* main_fcgi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,9 +41,8 @@
 		F80C63F81CC15AC00002F3C9 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = ../../Sources/perfectserverfcgi/main.swift; sourceTree = "<group>"; };
 		F80C63FB1CC15ACC0002F3C9 /* main_http.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main_http.swift; path = ../../Sources/perfectserverhttp/main_http.swift; sourceTree = "<group>"; };
 		F80C63FC1CC15ACC0002F3C9 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = ../../Sources/perfectserverhttp/main.swift; sourceTree = "<group>"; };
+		F80D5B6C1CC871530025AD97 /* PerfectLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PerfectLib.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/Perfect-aqyqkcamromvnnennplcqudglcko/Build/Products/Debug/PerfectLib.framework"; sourceTree = "<group>"; };
 		F842421B1BD966FC001EFF66 /* perfectserverfcgi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = perfectserverfcgi; sourceTree = BUILT_PRODUCTS_DIR; };
-		F870D8C11CB815DD0042F449 /* PerfectLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PerfectLib.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/Perfect-aqyqkcamromvnnennplcqudglcko/Build/Products/Debug/PerfectLib.framework"; sourceTree = "<group>"; };
-		F88B06811BDD48DD001FD0CD /* PerfectServer HTTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PerfectServer HTTP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E752DF1BDA8A7600BFC36A /* perfectserverhttp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = perfectserverhttp; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -50,13 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F88B067E1BDD48DD001FD0CD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				F80D5B6E1CC871680025AD97 /* PerfectLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F80D5B6D1CC871530025AD97 /* PerfectLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +81,6 @@
 			children = (
 				F842421B1BD966FC001EFF66 /* perfectserverfcgi */,
 				F8E752DF1BDA8A7600BFC36A /* perfectserverhttp */,
-				F88B06811BDD48DD001FD0CD /* PerfectServer HTTP.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,7 +88,7 @@
 		F84242271BD96767001EFF66 /* Linked */ = {
 			isa = PBXGroup;
 			children = (
-				F870D8C11CB815DD0042F449 /* PerfectLib.framework */,
+				F80D5B6C1CC871530025AD97 /* PerfectLib.framework */,
 			);
 			name = Linked;
 			sourceTree = "<group>";
@@ -101,7 +96,7 @@
 		F8664C001CB6B4CB00ECA4B8 /* PerfectServerHTTP */ = {
 			isa = PBXGroup;
 			children = (
-				F80C63F71CC15AC00002F3C9 /* main_fcgi.swift */,
+				F80C63FB1CC15ACC0002F3C9 /* main_http.swift */,
 				F80C63F81CC15AC00002F3C9 /* main.swift */,
 			);
 			name = PerfectServerHTTP;
@@ -110,7 +105,7 @@
 		F8664C111CB6B70800ECA4B8 /* PerfectServerFCGI */ = {
 			isa = PBXGroup;
 			children = (
-				F80C63FB1CC15ACC0002F3C9 /* main_http.swift */,
+				F80C63F71CC15AC00002F3C9 /* main_fcgi.swift */,
 				F80C63FC1CC15ACC0002F3C9 /* main.swift */,
 			);
 			name = PerfectServerFCGI;
@@ -135,23 +130,6 @@
 			productName = PerfectServer;
 			productReference = F842421B1BD966FC001EFF66 /* perfectserverfcgi */;
 			productType = "com.apple.product-type.tool";
-		};
-		F88B06801BDD48DD001FD0CD /* PerfectServer HTTP App */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F88B068F1BDD48DD001FD0CD /* Build configuration list for PBXNativeTarget "PerfectServer HTTP App" */;
-			buildPhases = (
-				F88B067D1BDD48DD001FD0CD /* Sources */,
-				F88B067E1BDD48DD001FD0CD /* Frameworks */,
-				F88B067F1BDD48DD001FD0CD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "PerfectServer HTTP App";
-			productName = PerfectServerHTTPApp;
-			productReference = F88B06811BDD48DD001FD0CD /* PerfectServer HTTP.app */;
-			productType = "com.apple.product-type.application";
 		};
 		F8E752DE1BDA8A7600BFC36A /* PerfectServer HTTP */ = {
 			isa = PBXNativeTarget;
@@ -183,9 +161,6 @@
 					F842421A1BD966FC001EFF66 = {
 						CreatedOnToolsVersion = 7.1;
 					};
-					F88B06801BDD48DD001FD0CD = {
-						CreatedOnToolsVersion = 7.1;
-					};
 					F8E752DE1BDA8A7600BFC36A = {
 						CreatedOnToolsVersion = 7.1;
 					};
@@ -206,35 +181,17 @@
 			targets = (
 				F842421A1BD966FC001EFF66 /* PerfectServer FastCGI */,
 				F8E752DE1BDA8A7600BFC36A /* PerfectServer HTTP */,
-				F88B06801BDD48DD001FD0CD /* PerfectServer HTTP App */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		F88B067F1BDD48DD001FD0CD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F84242171BD966FC001EFF66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F80C63FD1CC15ACC0002F3C9 /* main_http.swift in Sources */,
 				F80C63FE1CC15ACC0002F3C9 /* main.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F88B067D1BDD48DD001FD0CD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				F80D5B701CC871D20025AD97 /* main_fcgi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,7 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F80C63F91CC15AC00002F3C9 /* main_fcgi.swift in Sources */,
+				F80D5B6F1CC871CE0025AD97 /* main_http.swift in Sources */,
 				F80C63FA1CC15AC00002F3C9 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,32 +308,6 @@
 			};
 			name = Release;
 		};
-		F88B068D1BDD48DD001FD0CD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = PerfectServerHTTPApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = ca.perfectlysoft.PerfectServerHTTPApp;
-				PRODUCT_NAME = "PerfectServer HTTP";
-			};
-			name = Debug;
-		};
-		F88B068E1BDD48DD001FD0CD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = PerfectServerHTTPApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = ca.perfectlysoft.PerfectServerHTTPApp;
-				PRODUCT_NAME = "PerfectServer HTTP";
-			};
-			name = Release;
-		};
 		F8E752E41BDA8A7600BFC36A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -415,15 +346,6 @@
 			buildConfigurations = (
 				F84242231BD966FC001EFF66 /* Debug */,
 				F84242241BD966FC001EFF66 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F88B068F1BDD48DD001FD0CD /* Build configuration list for PBXNativeTarget "PerfectServer HTTP App" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F88B068D1BDD48DD001FD0CD /* Debug */,
-				F88B068E1BDD48DD001FD0CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
