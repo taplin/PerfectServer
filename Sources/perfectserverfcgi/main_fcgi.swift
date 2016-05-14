@@ -56,5 +56,5 @@ func startServer() throws {
     ls.initializeServices()
     
 	let fastCgiServer = FastCGIServer()
-	try fastCgiServer.start(sockPath)
+	try fastCgiServer.start(namedPipe: sockPath)
 }
