@@ -26,6 +26,6 @@ let package = Package(
 	         	Target(name: "perfectserverfcgi")
 	],
 	dependencies: [
-	              	.Package(url:"https://github.com/PerfectlySoft/Perfect.git", majorVersion: 0, minor: 13)
+	              	.Package(url:"https://github.com/PerfectlySoft/Perfect.git", majorVersion: 0, minor: 14)
 	]
 )
